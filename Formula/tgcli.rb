@@ -1,28 +1,28 @@
 class Tgcli < Formula
   desc "Telegram CLI tool using grammers (pure Rust MTProto)"
   homepage "https://github.com/dgrr/tgcli"
-  version "0.2.6"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/dgrr/tgcli/releases/download/v#{version}/tgcli-darwin-arm64"
-      sha256 "be95d5ae8fc6974319365216af188c53d9cb32a9167eec4c798c3bcb5ae08888"
+      sha256 "ebf5832b5251714cad2f8ec024651af995aacca6f3de9ea5d2681ed833276cd9"
     end
     on_intel do
       url "https://github.com/dgrr/tgcli/releases/download/v#{version}/tgcli-darwin-amd64"
-      sha256 "d72172cea35a4691cf2cb94ed954171cb90c15a8ebc7d881c0e704a53f2db4e8"
+      sha256 "a0c95d1aebfb8953c22bbf8ef4ab3299d569eab14d87506be4c8ae56e16db526"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dgrr/tgcli/releases/download/v#{version}/tgcli-linux-arm64"
-      sha256 "da3db4eae071f5c6c681993a0c2142b7b351bb79382af391181abbebc0275b66"
+      sha256 "13d43fd33cffd51094c7d4fd4e198c8b6dfe4b5503afd21f808bcc0e4cd38b0b"
     end
     on_intel do
       url "https://github.com/dgrr/tgcli/releases/download/v#{version}/tgcli-linux-amd64"
-      sha256 "8a314d4150b3248a6d6e2104e947763f96309ac4b0612d58ff789270bc0a1d70"
+      sha256 "e15b73cdf171c5141a44442969dfaded77ec183ea837f16b125d96e57c2f1987"
     end
   end
 
